@@ -13,11 +13,7 @@ export default class Conversor extends Component {
   }
 
   converter() {
-    // Remova o trecho de código que faz a chamada à API original
-    // let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
-    // let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=y`
-
-    // Utilize um valor fixo para simular a resposta da API
+    
     let cotacao = 4.8; // Valor fixo de exemplo
 
     let moedaB_valor = (parseFloat(this.state.moedaA_valor) * cotacao).toFixed(2) 
